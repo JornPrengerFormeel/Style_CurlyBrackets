@@ -1,5 +1,5 @@
 # the-bilderbeek-style
-This is the awesome way of writing with curley brackets as spacing.
+This is the awesome way of writing with curly brackets as spacing.
 
 * like this:
  
