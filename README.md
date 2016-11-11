@@ -1,6 +1,8 @@
 # the-bilderbeek-style
 This is the awesome way of writing with curley brackets as spacing.
-*Like this
+
+* like this:
+ 
 ```
 void setup()
 {
