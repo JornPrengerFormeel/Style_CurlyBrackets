@@ -39,4 +39,30 @@ void draw()
 }
 ```
 
-Yes, the nested version is fancier.
+Yes, the nested version is fancier. But nested nested version then?
+
+```
+void setup()
+{
+{}size(500,500);
+}
+
+void draw()
+{
+{}background(50);
+{}if(mousePressed)
+{}{
+{{}}a = random(255);
+{{}}b = random(255);
+{{}}
+{{}}if(a == b)
+{{{}}}{
+{{{}}}a = a + 25;
+{{{}}}}
+{{}}fill(a,a,b);
+{{}}ellipse(mouseX,mouseY,30,30);
+{}}
+}
+
+```
+
