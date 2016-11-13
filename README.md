@@ -1,8 +1,9 @@
 # the-bilderbeek-style
-This is the awesome way of writing with curly brackets as spacing.
 
-* like this:
- 
+The Bilderbeek style is the awesome way of writing with curly brackets as spacing.
+
+## Standard Bilderbeek style 
+
 ```
 void setup()
 {
@@ -20,7 +21,14 @@ void draw()
 }
 ```
 
-* or fancier, nested version:
+You can use the script `to_bilderbeek.sh` to convert
+Stroustrup style to Bilderbeek style. It usage:
+
+```
+./to_bilderbeek.sh test.cpp
+```
+
+## Fancy Bilderbeek style
 
 ```
 void setup()
@@ -37,6 +45,13 @@ void draw()
 {{}}ellipse(mouseX,mouseY,50,50);
 {}{
 }
+```
+
+You can use the script `to_fancy_bilderbeek.sh` to convert
+Stroustrup style to fancy Bilderbeek style. It usage:
+
+```
+./to_fancy_bilderbeek.sh test.cpp
 ```
 
 Yes, the nested version is fancier. But nested nested version then?
